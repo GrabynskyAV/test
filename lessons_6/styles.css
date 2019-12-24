@@ -1,0 +1,17 @@
+/* body{
+    background-color: salmon;
+} */
+div{
+    /* background-color: rgba(255, 99, 71, 0.5); */
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border: 12px solid royalblue;
+    /* background-image: url("images/cat2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.1; */
+    background: radial-gradient(circle, red, yellow, green);
+
+    
+}

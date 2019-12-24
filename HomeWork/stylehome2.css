@@ -1,0 +1,8 @@
+p{
+   font-family: 'Montserrat', sans-serif;
+   font-weight: bold;
+   line-height: 1.4;/* міжрядковий інтервал */
+   letter-spacing: 0.05em;/*міжбуквельний інтервал*/
+   text-align: justify;
+   color: green;
+}

@@ -1,0 +1,25 @@
+/* div{
+    column-count: auto; 
+    column-gap: 20px;
+    column-rule: 1px solid red;
+    column-width: 100px;
+} */
+.container{
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap-reverse; */
+    flex-flow: row wrap;
+    /* /* justify-content: space-between; */
+    align-items: flex-start;
+    
+    align-content: flex-start;
+    border: 1px solid grey;
+    width: 700px;
+    height: 500px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    flex-basis: 100px;
+    border: 1px solid red;
+}

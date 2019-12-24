@@ -1,0 +1,35 @@
+:root{
+    -fs: 20px;
+}
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: var(-fs);
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: calc(var(-fs)*5);
+    text-transform: uppercase;
+}
+p:after{
+    content: '"';
+    color: red;
+
+}
+p:before{
+    content: '"';
+    color: red;
+}
+ul{
+    list-style: square;
+    font-family: 'Lato', sans-serif;
+}
+.ap{
+    color: #EB2E6B;
+}
+.strawberry{
+     color: #4CAF50;
+}
+

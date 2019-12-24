@@ -1,0 +1,38 @@
+header{ 
+    width: 100%;
+    height: 50px;
+    background-color: #B0D1AF;
+
+}
+nav{
+    width: 100%;
+    height: 40px;
+    background-color: #68BE64;
+  
+}
+section{
+    width: 100%;
+    height: 400px;
+    background-color: #5A92D7;
+}
+#sidebar{
+    float: left;
+    width: 20%;
+    
+}
+#content{
+    float: left;
+    width: 60%;
+    
+    background-color: #96B1DF;
+}
+aside{
+    float: left;
+    width: 20%;
+    ;
+}
+footer{
+    clear: both;
+    height: 50px;
+    background-color: #B0D1AF;
+}

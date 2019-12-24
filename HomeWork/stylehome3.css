@@ -1,0 +1,22 @@
+ul{
+    list-style: none; 
+    margin: auto;
+}
+
+
+li{
+    border: 2px solid #CDCDCD;
+    background-color: #EEEEEE;
+    display: inline-block;
+    text-align: center;
+    vertical-align: auto;
+    width: 30%;
+    height: 40px;
+    margin: 0 5px 5px 0;
+    vertical-align: middle;
+}
+
+#three, #seven{
+    background-color: #CCFFAA;
+    border: 2px solid #B8E599;
+}

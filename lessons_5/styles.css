@@ -1,0 +1,41 @@
+ /* .box{
+    display: inline-block;
+    background: yellow;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+} 
+
+#two{
+    position: relative;
+    top: 20px;
+    left: 10px;
+    background: red;
+} */
+#kol1{
+    float: left;
+    width: 150px;
+    background: red;
+}
+#kol2{
+    float:left;
+    width: 150px;
+    background: yellow;
+}
+#kol3{
+    float: left;
+    width: 150px;
+    background: red;
+}
+div{
+    width: 150px;
+    height: 150px;
+    background: yellow;
+    overflow: auto;
+}
+span{
+    background: grey;
+    width: 100px;
+    height: 100px;
+    display: block;
+}

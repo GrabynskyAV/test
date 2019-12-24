@@ -1,0 +1,24 @@
+body{
+    background: #F1F1F1;  
+   
+}
+section{
+    color: grey;
+    background: white;
+    width: 600px;
+    height: 300px;
+    padding: 20px;
+    border: 2px red solid;
+    border-radius: 5px;
+    position: fixed;
+    left: 250px;
+    top: 170px;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+hr{
+    width: 150px;
+}

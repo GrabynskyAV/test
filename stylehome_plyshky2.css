@@ -1,0 +1,22 @@
+.div{
+    width: 200px;
+    margin: 200px auto;
+ } 
+
+.square-1 {
+  perspective: 500px;
+  margin: 0px;
+  background: #003366;
+  transform-style: flat;
+}
+.square-2 {
+  height: 200px; 
+  transform: rotateZ(180deg);
+  background: rgba(0,51,102, .8);
+  animation: rotate 0.1s infinite;
+}
+@keyframes rotate {
+  100% {
+    transform: none;
+    }
+}

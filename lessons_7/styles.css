@@ -1,0 +1,31 @@
+div{
+    background: red;
+    border: 1px solid grey;
+    width: 150px;
+    height: 150px;
+}
+
+@media only screen and (max-width: 600px){
+    div{
+        background:green;
+        border: 5px solid grey;
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 600px){
+   
+   div{
+        background:blue;
+   }
+
+}
+
+@media only screen and (max-width: 600px) and (min-width: 300px){
+    div{
+        background:grey;
+   }
+
+}
+
